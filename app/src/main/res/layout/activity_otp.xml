@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenbg"
+    tools:context=".OTPActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80sp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80sp"
+            android:layout_marginBottom="40sp"
+            android:text="@string/otp_generate"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/darkgreen"
+            android:textSize="22sp" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/OTPWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/OTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_otp"
+            android:inputType="number"
+            android:ems="6"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:layout_marginLeft="140dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btnGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/btnsignupbg"
+            android:hint="@string/btnGet"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp"
+        android:background="@drawable/btnsignupbg"
+        android:hint="@string/btn_register"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>

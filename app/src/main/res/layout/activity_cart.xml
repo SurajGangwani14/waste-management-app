@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/screenbg"
+    tools:context=".CartActivity">
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:fillViewport="true">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_height="100dp"
+                        android:id="@+id/card1"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/ibtnadd"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bottle"
+                                />
+                            <TextView
+                                android:id="@+id/title1"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="Bottle"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/price1"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn1"
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/img2"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/pic2"
+                                />
+                            <TextView
+                                android:id="@+id/title2"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="paper"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/price2"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn2"
+
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card3"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/img3"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/pic3"
+                                />
+                            <TextView
+                                android:id="@+id/title3"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="Bottle"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/price3"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn3"
+
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card4"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/img4"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/pic4"
+                                />
+                            <TextView
+                                android:id="@+id/title4"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="Can"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/price4"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn4"
+
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"
+                                />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card5"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/img5"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/thermacol"
+                                />
+
+                            <TextView
+                                android:id="@+id/title5"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="20dp"
+                                android:text="Container"
+                                android:textColor="@color/darkgreen"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/price5"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn5"
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"
+                                />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card6"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/img6"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/pic3"
+                                />
+                            <TextView
+                                android:id="@+id/title6"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="Bottle"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/price6"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn6"
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"
+                                >
+
+
+                            </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card7"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/img7"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/pic4"
+                                />
+                            <TextView
+                                android:id="@+id/title7"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="Can"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/price7"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn7"
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"
+                                />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card8"
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_margin="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/ibtn8"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/thermacol"
+                                />
+                            <TextView
+                                android:id="@+id/title8"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="Container"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/price8"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="Rs.10"
+                                android:layout_marginLeft="100dp"
+                                android:textColor="@color/darkgreen"
+                                android:textStyle="bold"
+                                android:textSize="20sp"
+                                />
+
+
+                            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn8"
+                                android:layout_marginLeft="-120dp"
+                                android:layout_marginTop="40dp"
+                                app:textSize="8sp"
+                                app:backGroundColor="@color/darkgreen"
+
+                                app:finalNumber="50"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <androidx.cardview.widget.CardView
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/cardlast"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+
+                />
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/darkgreen"
+                android:textStyle="bold"
+                android:textSize="8sp"
+                />
+            <TextView
+                android:id="@+id/finalprice"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="@color/darkgreen"
+                android:textStyle="bold"
+                android:textSize="8sp"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/order"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="130dp"
+        android:text="Place Order" />
+</LinearLayout>

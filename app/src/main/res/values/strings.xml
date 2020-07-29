@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WasteManage</string>
+    <string name="intro_first_line">The Easy Waste Managing Solution</string>
+    <string name="intro_second_line">Managing waste in your hands now</string>
+    <string name="btn_login">User Login Here </string>
+    <string name="btn_user_signup">New User? Register here</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="user_login">USER LOGIN</string>
+    <string name="registration_message">new user registration</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="contact_number">Contact number</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="otp_generate">ENTER OTP</string>
+    <string name="enter_otp">enter otp</string>
+    <string name="btnGet">GET OTP</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="browse_activity">Browse Activity</string>
+</resources>

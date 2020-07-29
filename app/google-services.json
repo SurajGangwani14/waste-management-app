@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "900799872336",
+    "firebase_url": "https://wastemanage-77ba4.firebaseio.com",
+    "project_id": "wastemanage-77ba4",
+    "storage_bucket": "wastemanage-77ba4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900799872336:android:724dea10d14d4641020055",
+        "android_client_info": {
+          "package_name": "com.sd.wastemanage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900799872336-rh553vh21u6rebbj1dlijj92b4fca8k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sd.wastemanage",
+            "certificate_hash": "b3684ad8a3a3b28d774252b8d638d9cb55edd68f"
+          }
+        },
+        {
+          "client_id": "900799872336-671cp8u1h7vbiv6ss3p2aun7kr397ggv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTyqyVrFqXcZ6zqfS67SHmEmxe2p-M4gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900799872336-671cp8u1h7vbiv6ss3p2aun7kr397ggv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
